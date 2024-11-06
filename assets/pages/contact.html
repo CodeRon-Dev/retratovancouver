@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+     <!--box icon-->
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="../../index.html"><img src="../img/logo.png" alt=""></a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <nav class="navbar">
+            <a href="../../index.html">Home</a>
+            <a href="../pages/about.html" >About</a>
+            <a href="rate.html">Rate</a>
+            <a href="#contact" class="active">Contact</a>
+        </nav>
+    </header>
+
+    <section class="contact" id="contact">
+
+        <div class="contact-container">
+            <h1 style="--i:6">Contact Us</h1>
+
+        </div>
+
+    </section>
+
+
+    <section class="contact-form">
+
+        <div class="contact-box">
+
+            <div class="contact-info">
+                <h2>Get in Touch</h2>
+                <p><i class='bx bxs-contact'></i>Phone: +1 236 512-5193</p>
+                <p><i class='bx bx-envelope' ></i></i>Email: info@retratovancouver.ca</p>
+                <p><i class='bx bx-current-location' ></i>Address: 404 Ash St, New Westminster, <br>BC V3M 3M9, Canada</p>
+                <iframe
+                    class="map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12040.978962036123!2d-122.9247299!3d49.207383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x27b1dd41df36a039%3A0xc94597f518a570ef!2sretrato%20vancouver%20photography!5e0!3m2!1sen!2sca!4v1694569609317!5m2!1sen!2sca"
+                    allowfullscreen=""
+                    loading="lazy">
+                </iframe>
+
+            </div>
+
+            <form action="submit_form.php" method="post"> <!-- Update with your form submission URL -->
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+    </div>
+
+    </section>
+
+     <footer>
+
+        <div class="footer">
+           <p>Copyright 2024 Retrato Vancouver Photography . All rights reserved</p>
+        </div>
+
+        <div class="home-sci">
+            <a href="https://www.facebook.com/retratovancouver"><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.instagram.com/retratovancouver"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.youtube.com/@retratovancouver"><i class='bx bxl-youtube' ></i></a>
+        </div>
+     </footer>
+
+     <div class="scroll-on-top">
+        <a href="#contact"><i class='bx bx-arrow-to-top'></i></a>
+     </div>
+    
+    <script src="../js/script.js"></script>
+    
+</body>
+</html>
